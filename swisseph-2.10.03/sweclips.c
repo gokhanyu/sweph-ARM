@@ -848,13 +848,11 @@ static int do_calc(double tjd, int ipl, long iflag, double *x, char *serr)
 
 static void do_printf(char *info)
 {
-  printf("%s", info);
-  //GY>>
-//#ifdef _WINDOWS
-//  fprintf(fp, info);
-//#else
-//  printf(info);
-//#endif
+#ifdef _WINDOWS
+  fprintf(fp, info);
+#else
+  printf(info);
+#endif
 }
 
 /**************************************************************

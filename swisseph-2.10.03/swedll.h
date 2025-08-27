@@ -58,6 +58,12 @@
   for promoting such software, products or services.
 */
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+#ifndef _SWEDLL_H
+#define _SWEDLL_H
+
 #ifndef _SWEPHEXP_INCLUDED   
 #include "swephexp.h"
 #endif

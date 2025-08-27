@@ -5,11 +5,11 @@ This project builds the **Swiss Ephemeris** astronomical computation library (by
 ## 🚀 Features
 
 - ✅ Native ARM64 compilation
-- ✅ Output: `swe.dll` + `swe.lib` (import library)
+- ✅ Output: `swedll64-ARM.dll`
 - ✅ Compatible with C, C++, C#, Python (via ctypes), and more
 - ✅ High-precision calculations: planetary positions, lunar phases, houses, eclipses
 - ✅ Optional support for JPL DE4xx ephemeris files
-- ✅ Cross-platform compatible core (cleaned from obsolete test code)
+- ✅ Cross-platform compatible core (cleaned from the test code)
 
 ## 📦 Source Files Included
 
@@ -26,6 +26,9 @@ swecl.c - Solar eclipse calculations
 swehel.c - Heliocentric computations
 sweephe4.c - JPL DE4xx ephemeris reader (optional)
 sweclips.c - Eclipse prediction functions (optional)
+
+## 📦 Swiss Ephemeris Official Github Repository
+The official Swiss Ephemeris source code can be found at: https://github.com/aloistr/swisseph
 
 📚 License
 Swiss Ephemeris is open-source under the GNU Lesser General Public License (LGPL).

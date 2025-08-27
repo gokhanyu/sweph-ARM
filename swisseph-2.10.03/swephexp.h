@@ -72,16 +72,6 @@
   for promoting such software, products or services.
 */
 
-#ifdef SEDLL
-#ifdef __cplusplus
-#define EXPORT extern "C" __declspec(dllexport)
-#else
-#define EXPORT __declspec(dllexport)
-#endif
-#else
-#define EXPORT __declspec(dllimport)
-#endif
-
 #ifdef __cplusplus
 extern "C" {
 #endif
