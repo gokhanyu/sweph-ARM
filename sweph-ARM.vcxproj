@@ -228,6 +228,7 @@
     <ClCompile Include="swisseph-2.10.03\swevents.c" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="swisseph-2.10.03\doc\swisseph.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
